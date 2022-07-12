@@ -1,0 +1,310 @@
+
+.slideshow{
+    height: 85vh;
+}
+#navbar{
+  position: sticky;
+  top: 1px;
+  z-index: 1;
+}
+.navspace{
+  position: relative;
+  left: -33px;
+}
+.navmen{
+  background-color:#9761e8;
+  margin-bottom: 1px;
+}
+.navlogo{
+  z-index: 1;
+}
+.nav-item{
+    font-size: 1.3rem;
+    margin-left: 1rem;
+   
+}
+.navitems{
+  color: aliceblue;
+}
+.nav-link:hover{
+    color:gold;
+}
+#banner{
+    text-align: center;
+}
+#footer{
+    text-align: center;
+    
+}
+.theimage{
+    object-fit: cover;
+    height:100%;
+    width:100%;
+  }
+  .infolex{
+    padding:5% 5%;
+    text-align: center;
+  }
+  .feathead{
+  font-family:Montserrat;
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+  }
+  .featdesc{
+ line-height: 2;
+ font-size: 1.7rem;
+  }
+  .divideimg{
+    width: 14rem;
+  }
+ .car2{
+   
+    display: inline-block;
+    margin-left: 50vh;
+    
+ }
+ .car2:hover{
+  border: 0.5rem solid gold;
+ }
+ #car2slide{
+  padding-top: 4rem;
+   margin-left: 20vh;
+    width: 60%;
+    
+    
+ }
+  .descback{
+    
+  }
+  #anemities{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .center{
+    text-align: center;
+  }
+  #tab1{
+    margin-left: 45%;
+  }
+  .anehead{
+    text-align: center;
+  }
+  .aneheadtxt{
+    font-size: 4rem;
+  }
+  .anelist{
+font-size: 2rem;
+    margin:0 30% ;
+    width: 70%;
+    line-height: 3;
+  }
+  .aneline{
+    margin-left: 43%;
+    padding: 1rem;
+  }
+  .btnclr{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 1rem;
+  }
+  .btnclr:hover{
+    color: white;
+    background-color: goldenrod;
+  }
+  .anchorlink{
+    text-decoration: none;
+    color: black;
+  }
+  .margin3{
+    padding-top: 2rem;
+    margin-bottom:  2rem;
+  }
+  .alert{
+    font-size: 10%;
+    font-family: Gentium Book Plus;
+    font-weight: 900;
+    background-color: red;
+  }
+  #footer{
+    background-color: #9761e8;
+    padding-bottom: 2rem;
+  }
+
+  /* Booking Form Css */
+  .formout{
+    border: 5px solid;
+    width: 40%;
+    position: absolute;
+    top: 50vh;
+    left: 50vh;
+    border-radius: 10%;
+   
+  }
+  .formbdy{
+    font-family: Motserrat;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 2;
+    padding-bottom: 10px;
+    background-image: url('images/formbg.jpg');
+    border-radius: 10%;
+    color: azure;
+    font-weight: 800;
+   
+   
+  }
+  .childrens{
+    padding-left: 5rem;
+  }
+  #checkin{
+padding-right: 5rem;
+  }
+  #checkout{
+padding-left: 5rem;
+  }
+  .bookbtn{
+    background-color: beige;
+    border-radius: 10%;
+  }
+  .bookbtn:hover{
+    background-color: aquamarine;
+  }
+  .inpt{
+    border-radius: 20%;
+  }
+  .inpt1{
+    border-radius: 5%;
+  }
+  .btnbbk{
+    position: relative;
+    left: 95vh;
+  }
+  .hidden{
+    visibility: hidden;
+    
+  }
+
+  @media(max-width:992px){
+
+    .slideshow{
+      height: 100%;
+  }
+
+    navigation */
+    .btnclr{
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+    .btnclr:hover{
+      color: white;
+      background-color: goldenrod;
+    }
+    .coloranimate:hover{
+      border-color: gold;
+    }
+
+    /* body */
+    body{
+      align-items: center;
+    }
+
+    /* mobile site accomodation carousel */
+    .mobilecar2{
+      width: 40vh;
+      margin-left: 8vh;
+    }
+    #car2slide{
+      padding-top: 2rem;
+       margin-left: 10vh;
+       width: 100%;
+    }
+    /* text */
+    
+    .feathead{
+      font-family:Montserrat;
+      font-size: 2rem;
+      font-weight: 800;
+      text-align: center;
+      }
+    .featdesc{
+     line-height: 2;
+     font-size: 1.3rem;
+      }
+      .divideimg{
+        width: 14rem;
+      }
+    
+
+      .infolex{
+        padding:5% 5%;
+        text-align: center;
+      }
+      .center{
+        text-align: center;
+      }
+      #tab1{
+        margin-left: 45%;
+      }
+      .anehead{
+        text-align: center;
+      }
+      .aneheadtxt{
+        font-size: 2rem;
+      }
+      .anelist{
+    font-size: 1.4rem;
+        margin: auto;
+        width: 70%;
+        line-height: 3;
+      }
+      .aneline{
+        margin-left: 43%;
+        padding: 1rem;
+      }
+      .btnclr{
+        font-size: 2rem;
+        font-weight: 600;
+        margin-left: 1rem;
+      }
+      .btnclr:hover{
+        color: white;
+        background-color: goldenrod;
+      }
+      .anchorlink{
+        text-decoration: none;
+        color: black;
+      }
+      .margin3{
+        padding-top: 2rem;
+        margin-bottom:  2rem;
+      }
+     
+      #footer{
+        background-color: #9761e8;
+        padding-bottom: 2rem;
+      }
+      /* formmobile */
+      .formout{
+        border: 5px solid;
+        width: 60%;
+        position: absolute;
+        top: 50vh;
+        left: 19vh;
+        border-radius: 9%;
+       
+      }
+      .formbdy{
+        font-family: Motserrat;
+        font-size: 1.6rem;
+        text-align: center;
+        line-height: 1;
+        padding-bottom: 10px;
+        background-image: url('images/formbg.jpg');
+        border-radius: 9%;
+        color: azure;
+        font-weight: 800;
+       
+       
+      }
+    }
